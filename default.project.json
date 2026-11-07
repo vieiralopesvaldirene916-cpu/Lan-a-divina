@@ -1,0 +1,27 @@
+{
+  "name": "LancaDoJuizoCelestial",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "CelestialSpear": {
+        "$path": "src/shared/CelestialSpear"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "CelestialSpearServer": {
+        "$path": "src/server/CelestialSpearServer"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "CelestialSpearClient": {
+          "$path": "src/client/CelestialSpearClient.client.lua"
+        }
+      }
+    }
+  }
+}
